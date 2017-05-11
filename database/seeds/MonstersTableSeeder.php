@@ -21,7 +21,7 @@ class MonstersTableSeeder extends Seeder
             'type1' => 'Grass',
             'type2' => 'Poison',
             'level' => 5,
-            'trainer' => 'Will',
+            'trainer_id' => 1,
         ]);
 
         Monster::insert([
@@ -31,7 +31,7 @@ class MonstersTableSeeder extends Seeder
             'type1' => 'Fire',
             'type2' => NULL,
             'level' => 5,
-            'trainer' => 'Will',
+            'trainer_id' => 2,
         ]);
 
         Monster::insert([
@@ -41,8 +41,7 @@ class MonstersTableSeeder extends Seeder
             'type1' => 'Water',
             'type2' => NULL,
             'level' => 5,
-            'trainer' => 'Will',
+            'trainer_id' => 3,
         ]);
-
     }
 }

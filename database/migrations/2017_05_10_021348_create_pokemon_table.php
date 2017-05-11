@@ -24,8 +24,7 @@ class CreatePokemonTable extends Migration
 		$table->string('name');
 		$table->string('type1');
 		$table->string('type2')->nullable();
-		$table->integer('level');
-		$table->string('trainer');
+		$table->integer('level'); 
 
 
 	});
